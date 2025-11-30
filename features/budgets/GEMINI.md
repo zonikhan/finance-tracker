@@ -1,3 +1,5 @@
+
+
 # Day 3: Budget Management System
 
 ## Today's Goal
@@ -36,6 +38,7 @@ Color coding:
 - Yellow: 70-100% used
 - Red: Over 100% (overspending)
 
+
 Display:
 - Total monthly budget
 - Total spent
@@ -52,3 +55,4 @@ Display:
 ✅ Highlights over-budget categories
 ✅ Shows progress bars
 ✅ Budget resets each month automatically
+
