@@ -1,3 +1,6 @@
+**`features/smart_assistant/GEMINI.md`:**
+
+```markdown
 # Day 5: Smart Financial Assistant
 
 ## Today's Goal
@@ -26,6 +29,7 @@ Smart analysis showing:
 - Alerts if any
 - Quick tip for the day
 
+```
 Example:
 📊 Daily Financial Check (Nov 14, 2025)
 

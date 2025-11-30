@@ -7,6 +7,8 @@ import os
 from features.transactions.transactions import add_expense, add_income, list_transactions, show_balance
 from features.budgets.budgets import set_budget, view_budgets
 from features.analytics.analytics import analytics_menu
+from features.smart_assistant.smart_assistant import smart_assistant_menu
+from features.data_management.data_management import data_management_menu
 
 # Create necessary directories if they don't exist
 os.makedirs("database", exist_ok=True)
@@ -50,6 +52,8 @@ def main():
         "Show Current Month Balance": show_balance,
         "Budget Management": budget_menu,
         "Financial Analytics": analytics_menu,
+        "Smart Assistant": smart_assistant_menu,
+        "Data Management": data_management_menu,
         "Exit": None
     }
     
@@ -71,7 +75,7 @@ def main():
             action()
 
         # Add a small pause for better UX for sub-menus
-        if choice not in ["Budget Management", "Financial Analytics", "Exit"]:
+        if choice not in ["Budget Management", "Financial Analytics", "Smart Assistant", "Data Management", "Exit"]:
              input("\nPress Enter to return to the main menu...")
 
 
