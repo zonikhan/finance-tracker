@@ -1,0 +1,3 @@
+date,type,category,description,amount_paisa
+2025-11-30,expense,Food,mandi house,2000000
+2025-11-30,income,Freelance,Gora project,5000000
